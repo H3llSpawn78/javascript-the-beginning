@@ -1,0 +1,1 @@
+showMesssage("Changed via JS");
