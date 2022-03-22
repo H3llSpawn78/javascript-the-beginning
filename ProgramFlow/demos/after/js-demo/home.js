@@ -9,10 +9,17 @@ do {
 // + symbol leaves the number as is and - symbol makes the number a negative number
 // However, the + symbol converts string to number in the below scenario
 
-let price = +(1.1 + 1.3).toFixed(2) === 2.4;
+//let price = +(1.1 + 1.3).toFixed(2);
 
-if( price === 2.4){
-    showMessage('true');
-} else if (price !== 2.4){
-    showMessage('false');
-}
+// if (price === 2.4) {
+//     showMessage('true');
+// } else if (price !== 2.4) {
+//     showMessage('false');
+// }
+
+
+// Terniary operator - short-hand with 3 values
+
+let price = 20;
+
+(price > 10) ? showMessage('Expensive') : showMessage('Cheap');
