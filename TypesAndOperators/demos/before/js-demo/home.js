@@ -24,3 +24,9 @@ let message = `Discount for`;
 showMessage(message + "\n" + person.firstName + " " + person.lastName);
 // console.log(person);
 // console.log(typeof person);
+
+// Null
+let value = null;
+
+// Undefined 
+let value1;
