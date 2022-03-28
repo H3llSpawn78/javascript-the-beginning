@@ -11,10 +11,15 @@
 let price = 25.99;
 price += 5;
 
+
+// Objects
 let person = {
     firstName: 'Rich',
     lastName: 'Mery'
 };
+
+// Symbols
+
 
 let userName = 'Rich';
 let message = `Discount for`;
@@ -30,3 +35,17 @@ let value = null;
 
 // Undefined 
 let value1;
+
+
+// Converting numbers to strings and vice versa
+
+let amount = 123;
+let amountString = "123";
+// amount = amount.toString();
+// console.log(typeof person);
+
+// NaN
+//let amountString = "A123";
+
+
+showMessage(Number.parseFloat(amountString));
