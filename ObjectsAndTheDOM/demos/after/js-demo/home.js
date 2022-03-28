@@ -59,6 +59,3 @@ button.addEventListener('click', function(event) {
     }
 
 });
-
-
-
