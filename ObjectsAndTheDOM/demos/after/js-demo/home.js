@@ -34,11 +34,30 @@ let person = {
     }
 };
 
-person.showInfo('Hanging on');
+//person.showInfo('Hanging on');
 //showMessage(typeof person.showInfo);
 
 
 // Passing Objects to Functions
+// Modify props and methods
+
+function incrementAge(person){
+    person.age++;
+}
+
+//incrementAge(person);
+//showMessage(person.name + ' is ' + person.age)
+
+
+let now = new Date();
+
+
+showMessage(now.toLocaleDateString(undefined, {weekday:'long'}) )
+
+
+
+
+
 
 
 // Show and hide section on click
