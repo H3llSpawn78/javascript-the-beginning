@@ -41,7 +41,6 @@ person.showInfo('Hanging on');
 // Passing Objects to Functions
 
 
-
 // Show and hide section on click
 const button = document.getElementById('see-review');
 
